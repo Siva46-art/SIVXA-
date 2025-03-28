@@ -1,12 +1,12 @@
-# Input: An integer number
-num = 6
+# function definition
+def fun(p, t, r):
+    return (p * t * r) / 100
 
-# Initialize the factorial variable to 1
-factorial = 1
+# given values for principal (p), time (t) in years and rate of interest (r) per annum
+p, t, r = 8, 6, 8
 
-# Calculate the factorial using a for loop
-for i in range(1, num + 1):
-    factorial *= i
+# function calling 
+res = fun(p, t, r)
 
-# Output: The factorial of the number
-print(f"The factorial of {num} is {factorial}")
+print(res)
+
