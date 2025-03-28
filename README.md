@@ -6,5 +6,3 @@ p, t, r = 8, 6, 8
 # function calling 
 res = fun(p, t, r)
 print(res)
-
-              
